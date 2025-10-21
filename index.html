@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私のポートフォリオ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">私について</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#projects">プロジェクト</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">こんにちは、私は<span class="highlight">開発者</span>です</h1>
+            <p class="hero-subtitle">クリエイティブで革新的なウェブソリューションを作成しています</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">プロジェクトを見る</a>
+                <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">私について</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>情熱的なウェブ開発者として、美しく機能的なウェブサイトとアプリケーションの作成に専念しています。</p>
+                    <p>最新の技術とベストプラクティスを使用して、ユーザーエクスペリエンスを最優先に考えたソリューションを提供します。</p>
+                    <p>常に新しい技術を学び、スキルを向上させることに情熱を注いでいます。</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg width="200" height="200" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="90" fill="#667eea"/>
+                            <circle cx="100" cy="80" r="30" fill="#fff"/>
+                            <path d="M 50 150 Q 100 120 150 150" stroke="#fff" stroke-width="30" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">スキル</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>フロントエンド開発</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>バックエンド開発</h3>
+                    <p>Node.js, Python, Express, Django</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>レスポンシブデザイン</h3>
+                    <p>モバイルファースト、クロスブラウザ対応</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>データベース</h3>
+                    <p>MySQL, PostgreSQL, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>デプロイ & DevOps</h3>
+                    <p>Docker, AWS, CI/CD</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎯</div>
+                    <h3>UI/UX デザイン</h3>
+                    <p>Figma, Adobe XD, ユーザー中心設計</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">プロジェクト</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">プロジェクト 1</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Eコマースプラットフォーム</h3>
+                        <p>React と Node.js を使用した完全な機能を持つオンラインストア</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">プロジェクト 2</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>タスク管理アプリ</h3>
+                        <p>チーム向けの直感的なタスク管理ソリューション</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">PWA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">プロジェクト 3</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ポートフォリオサイト</h3>
+                        <p>モダンでレスポンシブなポートフォリオテンプレート</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">お問い合わせ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>お気軽にご連絡ください</h3>
+                    <p>プロジェクトのご相談や、コラボレーションのお問い合わせをお待ちしております。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>your-email@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+81 (0) 123-456-7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>東京, 日本</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="お名前" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="メールアドレス" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="メッセージ" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">送信</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 私のポートフォリオ. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
